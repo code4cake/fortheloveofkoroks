@@ -31,3 +31,5 @@ export const plugins = [
   // To learn more, visit: https://gatsby.dev/offline
   // `gatsby-plugin-offline`,
 ]
+
+export const pathPrefix = "fortheloveofkoroks"

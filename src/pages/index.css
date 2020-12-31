@@ -5,6 +5,14 @@
   --font-primary: 'BOTW', sans-serif; 
 }
 
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font: 112.5%/1.45em  var(--font-primary), georgia, serif, sans-serif;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
 body {
   font-family: var(--font-primary);
   letter-spacing: 0.1em;
