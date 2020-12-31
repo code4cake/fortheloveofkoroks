@@ -24,7 +24,7 @@ export const plugins = [
       background_color: `#749A85`,
       theme_color: `#749A85`,
       display: `minimal-ui`,
-      icon: `src/images/gatsby-icon.png` // This path is relative to the root of the site.
+      icon: `src/images/korok.png` // This path is relative to the root of the site.
     }
   }
   // this (optional) plugin enables Progressive Web App + Offline functionality
