@@ -48,7 +48,7 @@ const IndexPage = () => {
         </p>
         <p>#Gatsby</p>
         <p>#SillySiteChallenge</p>
-        <p>I finally just finished playing BOTW after spending a whole year trying to finish the game. <span aria-label="upside down emoji" role="img" >🙃</span></p>
+        <p>I finally just finished playing BOTW after spending a whole year trying to finish the game. <span aria-label="upside down emoji" role="img" > 🙃</span></p>
       </footer>
     </main>
   )
