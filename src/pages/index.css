@@ -72,7 +72,12 @@ section > span:first-of-type {
 
 footer {
   grid-area: footer;
-  font-family: var(--font-primary);
-  letter-spacing: 0.1em;
+  /* font-family: var(--font-primary);
+  letter-spacing: 0.1em; */
   color: var(--white);
+}
+
+footer > p {
+  font-family: var(--font-primary); 
+  letter-spacing: 0.1em;
 }

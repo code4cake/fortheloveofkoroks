@@ -21,6 +21,7 @@ const IndexPage = () => {
 
   return (
     <main>
+      <SEO title= "fortheloveofkoroks" />
       <header>
         <h1>For the Love of BOTW</h1>
         <h2>You thought you have found all the Koroks ?</h2>
