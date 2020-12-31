@@ -9,13 +9,13 @@ import "./index.css"
 
 const IndexPage = () => {
 
-  const [hat, setHat] = React.useState([])
+  const [currentIndex, setCurrentIndex] = React.useState(0)
   
   const hatList = ['🎩', '👒', '🎓', '🧢', '⛑', '🪖' ]
 
   const onClick = () => {
-    setHat(hatList[0 + 1])
     let audio = new Audio(korokAppearsSoundEffect) 
+    setCurrentIndex((index) => index < hatList.length - 1 ? index + 1 : 0)
     audio.play()
   }
 
@@ -33,7 +33,7 @@ const IndexPage = () => {
           onClick={onClick}
         />
         <>
-          <span role="img" aria-label='hat emoji various'>{hat}</span>
+          <span role="img" aria-label='hat emoji various'>{hatList[currentIndex]}</span>
           <Icon name="korok" />
           <Icon name="mount" />
         </>

@@ -24,7 +24,6 @@ body {
 
 main {
   display: grid;
-  /* grid-gap: 12px; */
   grid-template-rows: repeat(3, 1fr);
   grid-template-areas: 
     "header"
@@ -60,7 +59,7 @@ section > svg:first-of-type {
 
 section > span:first-of-type {
   position: relative;
-  top: 75px;
+  top: 45px;
   font-size: 80px;
   text-align: center;
 }
